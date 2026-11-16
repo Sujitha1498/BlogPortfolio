@@ -1,0 +1,132 @@
+
+.login-page {
+  min-height: 85vh;
+  background: #faf7f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  padding: 45px;
+  border: 1px solid #eee8df;
+  border-radius: 20px;
+  box-shadow: 0 15px 45px rgba(75, 62, 48, 0.07);
+}
+
+.login-eyebrow {
+  color: #899875;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.login-title {
+  font-family: Georgia, serif;
+  font-size: 38px;
+  font-weight: 500;
+  color: #3d3530;
+  margin-bottom: 10px;
+}
+
+.login-title span {
+  color: #899875;
+  font-style: italic;
+}
+
+.login-description {
+  color: #91877d;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.login-label {
+  display: block;
+  color: #51473e;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 14px 15px;
+  border: 1px solid #e8e1d8;
+  border-radius: 10px;
+  background: #fdfbf8;
+  color: #3d3530;
+  outline: none;
+  transition: 0.2s;
+}
+
+.login-input:focus {
+  border-color: #a3b18a;
+  box-shadow: 0 0 0 3px rgba(163, 177, 138, 0.15);
+}
+
+.login-field {
+  margin-bottom: 22px;
+}
+
+.login-error {
+  background: #f9eded;
+  color: #ad6262;
+  padding: 12px;
+  border-radius: 9px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  width: 100%;
+  background: #899875;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.login-button:hover:not(:disabled) {
+  background: #71815d;
+  transform: translateY(-2px);
+}
+
+.login-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-register {
+  text-align: center;
+  color: #91877d;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.login-register button {
+  color: #778563;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.login-register button:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 30px 23px;
+  }
+
+  .login-title {
+    font-size: 33px;
+  }
+}
