@@ -6,7 +6,7 @@ import axios from "axios";
 import Footer from "./common/Footer";
 import "./Blogs.css";
 
-const API_URL = "https://blogportfolio-zon4.onrender.com/";
+const API_URL = "https://blogportfolio-zon4.onrender.com/api/blogs";
 
 function Blogs() {
   const [blogs, setBlogs] = useState([]);
